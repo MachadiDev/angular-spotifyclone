@@ -1,7 +1,39 @@
 <div class="container">
-    <div class="title">
-        <button><mat-icon>archive</mat-icon>Sua Biblioteca</button>
-        <button><mat-icon>add</mat-icon></button>
-        <button><mat-icon>arrow_forward</mat-icon></button>
+    <div class="top-itens">
+        <div class="botao-title">
+            <mat-icon>archive</mat-icon><span>Suas Bibliotecas</span>
+        </div>
+        <div class="nav-button">
+            <mat-icon>add</mat-icon>
+            <mat-icon>arrow_forward</mat-icon>
+        </div>
+    </div>
+
+    <div class="container-categories">
+        <ul class="categories">
+            <li class="categories-item">Playlists</li>
+            <li class="categories-item">Podcast e Programas</li>
+            <li class="categories-item">Álbuns</li>
+            <li class="categories-item">Artistas</li>
+        </ul>
+
+        <div class="filtros">
+            <mat-icon>search</mat-icon>
+            <select name="Filtros" id="cboFiltros">
+                <optgroup label="Classificado Por">
+                    <option>Recentes</option>
+                    <option>Adicionados Recentemente</option>
+                    <option>Ordem Alfabética</option>
+                    <option>Criador</option>
+                </optgroup>
+
+            </select>
+        </div>
+    </div>
+
+    <div class="container-cards">
+        <img src="" alt="">
+        <span class="card-title">Músicas favoritas</span>
+        <p class="card-description"></p>
     </div>
 </div>
