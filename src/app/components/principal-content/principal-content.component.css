@@ -1,0 +1,38 @@
+* {
+    color: white;
+}
+.container {
+    width: 500px;
+    padding: 20px;
+    background-color: #1a1a1a;
+}
+
+.container-top-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #1a1a1a00;
+}
+
+.nav-container-left {
+    background-color: #1a1a1a00;
+}
+
+.nav-container-right {
+    background-color: #1a1a1a00;
+}
+
+mat-icon {
+    border-radius: 15px;
+    width: 26px;
+    height: 26px;
+    margin-right: 5px;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 3px;
+    padding-left: 1px;
+    background-color: #0000007e;
+
+}
+

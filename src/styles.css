@@ -12,3 +12,7 @@
 .container {
     border-radius: 15px;
 }
+
+::-webkit-scrollbar-track {
+    background-color: #1a1a1a00; /* Cor do track (fundo da scrollbar) */
+}
